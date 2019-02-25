@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <resources>
+        <color name="colorPrimary">#3F51B5</color>
+        <color name="colorPrimaryDark">#303F9F</color>
+        <color name="colorAccent">#FF4081</color>
+        <color name="logoOne">#AFB3B6</color>
+        <color name="logoTwo">#1E65A5</color>
+        <color name="richBlack">#000000</color>
+        <color name="colorhint">#d4d8dc</color>
+        <color name="white">#ffffff</color>
+        <color name="newpink">#ed074c</color>
+        <color name="darkblack">#141414</color>
+        <color name="card_background">#878383</color>
+
+
+    </resources>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/thirty"
+            android:layout_marginTop="@dimen/twenty"
+            android:layout_marginRight="@dimen/thirty"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fourty"
+                android:hint="@string/username"
+                android:elevation="@dimen/five"
+                android:paddingLeft="@dimen/ten"
+                android:layout_marginTop="@dimen/ten" />
+            <EditText
+                android:id="@+id/password"
+                android:paddingLeft="@dimen/ten"
+                android:layout_marginTop="@dimen/twenty"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fourty"
+                android:hint="@string/password"
+
+                android:drawablePadding="@dimen/five"
+                android:inputType="textPassword"
+               />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="@dimen/five"
+                android:layout_marginTop="@dimen/twenty"
+                android:text="@string/login"
+                android:onClick="loginToMainActivity"
+                android:textSize="@dimen/twenty"
+                android:id="@+id/singingIn"
+                android:padding="@dimen/ten"
+                android:fontFamily="sans-serif-condensed"/>
+
+        </LinearLayout>
+
+</RelativeLayout>
